@@ -1,0 +1,10 @@
+function getComputerChoice () {
+    let number = Math.random() * 10
+    if (number < 4) {
+        return "rock";
+    } else if (number < 7) {
+        return "paper";
+    } else {
+        return "scissors";
+    }
+}
